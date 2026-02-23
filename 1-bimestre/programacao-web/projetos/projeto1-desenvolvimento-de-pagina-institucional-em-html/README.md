@@ -68,7 +68,6 @@ Cursos Oferecidos
     - HTML
     - CSS
     - JavaScript
-
 ---
 
 ## 🔹 4. Como se Inscrever
