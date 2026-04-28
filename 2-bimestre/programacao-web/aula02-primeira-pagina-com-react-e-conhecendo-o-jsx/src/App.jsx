@@ -6,6 +6,7 @@
       <div>
         <h1> my name: Taislan lindo</h1>
         <p>Meu filme favorito é: {filmeFavorito}</p>
+        <p><p>Minha materia favorita é: {materiaFavota}</p></p>
       </div>
     )
   }
