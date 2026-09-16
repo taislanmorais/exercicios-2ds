@@ -240,5 +240,8 @@ A equipe consegue realizar apenas **três tarefas** nesta Sprint.
 ### Perguntas
 
 1. Quais três tarefas você escolheria?
+RESPOSTA: Eu escolheria A,C,E
 2. Por que elas devem ter prioridade?
+RESPOSTA: Porque são problemas mais importantes e afetam diretamente os usuários.
 3. Qual seria um possível objetivo para essa Sprint?
+RESPOSTA: Porque são problemas mais importantes e afetam diretamente os usuários.

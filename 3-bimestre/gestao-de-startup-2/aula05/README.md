@@ -206,6 +206,10 @@ _
 Para cada situação, indique qual reunião seria mais adequada:
 
 1. A equipe precisa decidir quais tarefas serão realizadas na próxima Sprint.
+RESPOSTA: Planning - decidir quais tarefas serão feitas na próxima Sprint.
 2. Um desenvolvedor quer informar que está bloqueado por um problema.
+RESPOSTA: Daily - informar que está com um problema ou impedimento.
 3. A equipe terminou uma Sprint e precisa apresentar o que desenvolveu.
+RESPOSTA: Review - apresentar o que foi desenvolvido na Sprint.
 4. A equipe percebeu que houve problemas de comunicação durante a Sprint e quer descobrir como melhorar.
+RESPOSTA: Retrospectiva - conversar sobre os problemas e pensar em como melhorar.
