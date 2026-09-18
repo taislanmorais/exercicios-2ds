@@ -1,25 +1,30 @@
 const {
-    GuiaTransferencia,
-    GuiaDevolucao,
-    GuiaAmostra
+    Transferencia,
+    Devolucao,
+    Amostra
 } = require("./GuiaRemessa")
 
-function criar(tipo, produto) {
-    switch (tipo) {
-        case "transferencia":
-            return new GuiaTransferencia(produto)
 
-        case "devolucao":
-            return new GuiaDevolucao(produto)
+class Factory {
 
-        case "amostra":
-            return new GuiaAmostra(produto)
+    static criar(tipo, produto) {
 
-        default:
-            throw new Error("Tipo de guia inválido")
+        switch (tipo) {
+
+            case "transferencia":
+                return new Transferencia(produto)
+
+            case "devolucao":
+                return new Devolucao(produto)
+
+            case "amostra":
+                return new Amostra(produto)
+
+            default:
+                throw new Error("Tipo de guia inválido")
+        }
     }
 }
 
-module.exports = {
-    criar
-}
+
+module.exports = Factory

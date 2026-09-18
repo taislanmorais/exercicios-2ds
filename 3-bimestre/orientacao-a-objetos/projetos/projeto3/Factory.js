@@ -17,8 +17,6 @@ class Factory{
 
 
 
-
-
 // === FIM DO CÓDIGO =======================
 // === NÃO FAZER NADA ABAIXO DESSA LINHA ===
 module.exports = Factory

@@ -4,32 +4,33 @@ class GuiaRemessa {
     }
 
     emitir() {
-        throw new Error("")
+        throw new Error("O método emitir() deve ser implementado")
     }
 }
 
-class GuiaTransferencia extends GuiaRemessa {
-    emitir() 
-    {
+
+class Transferencia extends GuiaRemessa {
+    emitir() {
         return `Guia de transferência emitida para: ${this.produto}`
     }
 }
 
-class GuiaDevolucao extends GuiaRemessa {
+
+class Devolucao extends GuiaRemessa {
     emitir() {
         return `Guia de devolução emitida para: ${this.produto}`
     }
 }
 
-class GuiaAmostra extends GuiaRemessa {
+
+class Amostra extends GuiaRemessa {
     emitir() {
         return `Guia de amostra emitida para: ${this.produto}`
     }
 }
 
-module.exports = {
-    GuiaRemessa,
-    GuiaTransferencia,
-    GuiaDevolucao,
-    GuiaAmostra,
-}
+
+module.exports = GuiaRemessa
+module.exports.Transferencia = Transferencia
+module.exports.Devolucao = Devolucao
+module.exports.Amostra = Amostra
